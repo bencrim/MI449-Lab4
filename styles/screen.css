@@ -1,9 +1,9 @@
 :root {
-    --small-planet-height: 150px;
-    --small-planet-width: 150px;
-    --small-planet-margin: 35px auto;
-    --large-planet-height: 350px;
-    --large-planet-width: 350px;
+    --small-planet-height: 130px;
+    --small-planet-width: 130px;
+    --small-planet-margin: 30px auto;
+    --large-planet-height: 275px;
+    --large-planet-width: 275px;
     --large-planet-margin: 75px auto;
     --planet-border-radius: 50%;
 }
@@ -36,10 +36,11 @@ p {
 .display {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 350px 350px;
+    grid-template-rows: 300px 300px;
     gap: 30px;
-    width: 1650px;
+    width: 1400px;
     margin: 0 auto;
+    margin-bottom: 90px;
 }
 
 .cardSun {
@@ -51,7 +52,7 @@ p {
     justify-content: space-between;
     color:white;
     border-radius: 25px;
-    width: 500px;
+    width: 400px;
     border: 6px solid white;
 }
 
